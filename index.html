@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$LILGOVNO Memecoin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav> 
+            <div class="burger-menu" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="nav-links">
+                <a href="#intro">Home</a>
+                <a href="#features">Features</a>
+                <a href="#memes">Memes</a>
+                <a href="#distribution">Distribution</a>
+                <a href="#buy-now">Buy Now</a>
+            </div>
+            <div class = "header-title">
+               <h1>$LILGOVNO Memecoin</h1> 
+            </div>
+            
+               <div class="socials">
+                <a href="YOUR_TELEGRAM_LINK" target="_blank">
+                    <img src="images/icon-telegram.png" alt="Telegram"> Telegram
+                </a>
+                <a href="YOUR_X_LINK" target="_blank">
+                    <img src="images/X_logo.webp" alt="X(Twitter)"> X / Twitter
+                </a>
+                <a href="YOUR_PUMPFUN_LINK" target="_blank">
+                    <img src="images/logo.webp" alt="Pump.fun"> Pump.fun
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+  </div>
+        <section id="intro" class="intro">
+            <img src="images/LILGOVNO coin.png" alt="$LILGOVNO Token" class="token-image">
+            <div class="text-block">
+                <h2>Join the Memecoin Revolution!</h2>
+                <p>$LILGOVNO is the next big thing in the world of cryptocurrencies. Don't miss out!</p>
+                <div class="contract">
+                    <h2>Contract Address</h2>
+                    <span id="toCopy" value="aJxueirow3dfgdfg4325324u6h5i4h2k3hj4ipump">aJxueirow3dfgdfg4325324u6h5i4h2k3hj4ipump</span>
+                    <button id="copyButton" onclick="Copy('toCopy')" popovertarget="my-popover" type="button" class="copy-button"  title="Copy Button">Copy</button>
+                    <div id="my-popover" class="popover">Copied!🔥</div>
+                </div>
+                <div class="join-now">
+                    <a id="joinBtn" href="YOUR_LINK_HERE">Join Now</a>
+                </div>
+            </div>
+        </section>
+        <div class="logos">
+            <div class="logos-slide">
+              <img src="./logos/Solana.png" />
+              <img src="./logos/jupiter.png" />
+              <img src="./logos/dexscreener.png" />
+              <img src="./logos/solscan.png" />
+              <img src="./logos/BULLX.png" />
+              <img src="./logos/pump.png" />
+              <img src="./logos/raydium.png" />
+              <img src="./logos/meteora.png" />
+            </div>
+      
+            <div class="logos-slide">
+                <img src="./logos/Solana.png" />
+                <img src="./logos/jupiter.png" />
+                <img src="./logos/dexscreener.png" />
+                <img src="./logos/solscan.png" />
+                <img src="./logos/BULLX.png" />
+                <img src="./logos/pump.png" />
+                <img src="./logos/raydium.png" />
+                <img src="./logos/meteora.png" />
+            </div>
+        </div>
+        <section id="features">
+            <h2>Features</h2>
+            <div class="feature">
+                <h3>Decentralized</h3>
+                <p>Completely decentralized and community-driven.</p>
+            </div>
+            <div class="feature">
+                <h3>Fair Moonshot launch</h3>
+                <p>When goes live on Raydium token creator liquidity will be completely burned!</p>
+            </div>
+            <div class="feature">
+                <h3>Fun</h3>
+                <p>Memes and fun at the heart of our coin!</p>
+            </div>
+        </section>
+        <section id="memes">
+            <h2>Memes</h2>
+            <div class="meme-row">
+                <div class="meme">
+                    <img src="./meme/HODL.png" alt="Meme 1">
+                    <p>LILGOVNO BTC HODL</p>
+                </div>
+                <div class="meme">
+                    <img src="./meme/ELON_APPROVED.png" alt="Meme 2">
+                    <p>ELON APPROVED LILGOVNO</p>
+                </div>
+            </div>
+            <div class="meme-row">
+                <div class="meme">
+                    <img src="./meme/MASSON.jpg" alt="Meme 3">
+                    <p>LILGOVNO а member of the Masons</p>
+                </div>
+                <div class="meme">
+                    <img src="./meme/MEME_SUUU.jpg" alt="Meme 4">
+                    <p>LILGOVNO NEXT BTC</p>
+                </div>
+            </div>
+            <div class="meme-row">
+                <div class="meme">
+                    <img src="./meme/TWIT_MEME.jpg" alt="Meme 5">
+                    <p>LILGOVNO will cover everyone</p>
+                </div>
+                <div class="meme">
+                    <img src="./meme/YES.png" alt="Meme 6">
+                    <p>LILGOVNO on top CMC</p>
+                </div>
+            </div>
+        </section>
+        <section id="distribution">
+            <h2>Token Distribution</h2>
+            <div class="chart-container">
+                <canvas id="distributionChart"></canvas>
+            </div>
+        </section>
+        <section id="buy-now">
+            <h2>Get Your $LILGOVNO Now!</h2>
+            <button onclick="window.location.href ='YOUR_LINK_HERE'" class="glow-on-hover" type="button" >Buy Now</button>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2025 $LILGOVNO Memecoin. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
